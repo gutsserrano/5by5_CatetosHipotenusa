@@ -29,7 +29,7 @@ do
         }
     } while (cateto2 <= 0);
 
-    hipotenusa = Math.Sqrt(Math.Pow(cateto1, 2) + Math.Pow(cateto2, 2));
+    hipotenusa = Math.Sqrt((cateto1*cateto1) + (cateto2*cateto2));
 
     Console.WriteLine($"\nHipotenusa = {hipotenusa}\n");
 
